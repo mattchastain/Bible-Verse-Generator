@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { verses } from '../verses/hopeful_verses.js';
 
 export default function GenerateVerse() {
-	const [verse, setVerse] = useState({});
+	const [verse, setVerse] = useState({reference: verses[0].reference, text: verses[0].text});
 	const getRandomVerse = () => {
 		const randomIndex = Math.floor(Math.random() * verses.length);
 		const verse = verses[randomIndex];
