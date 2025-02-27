@@ -11,7 +11,7 @@ export default function GenerateVerse() {
 
 	return (
 		<>
-			<p className='mt-10 stroke-current'>{verse.reference}</p>
+			<p className='mt-10 pb-1 text-2xl font-black text-stroke'>{verse.reference}</p>
 			<h2 className='mb-10 max-w-1/2 text-center'>{verse.text}</h2>
 			<button
 				className='bg-transparent border-[#f3c199] border-1 rounded-md mt-2'
