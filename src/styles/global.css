@@ -23,3 +23,13 @@ button:hover {
     background-color: #f3c199;
 	color: #101010
 }
+
+.text-stroke {
+	text-shadow:
+		1px 1px 0 #f3c199,
+		-1px -1px 0 #f3c199,
+		1px -1px 0 #f3c199,
+		-1px 1px 0 #f3c199;
+	color: #101010;
+	font-weight: 800;
+}
