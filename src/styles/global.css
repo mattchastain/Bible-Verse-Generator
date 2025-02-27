@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+:root {
+	background-color: #101010;
+	color: #f3c199;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+html, body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	padding: 0.8rem 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #f3c199;
+	color: #101010
+}
